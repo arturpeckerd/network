@@ -10,5 +10,5 @@ do
     git add log
     git commit -m "updating ip"
     git push -u origin master
-    sleep 43200
+    sleep 21600
 done
