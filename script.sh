@@ -10,5 +10,8 @@ do
     git add log
     git commit -m "updating ip"
     git push -u origin master
-    sleep 21600
+    for i in {1..24}
+    do
+        sleep 3600
+    done
 done
